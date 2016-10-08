@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}
+Thermos -- Bookmarks for {{ user.username }}
+{%  endblock %}
+
+{% block content %}
+    <article>
+        <header>
+
+             <h1>Bookmarks for {{ user.username }}</h1>
+
+             {% if user.bookmarks.count() > 0 %}
+                 {% with bookmarks=user.bookmarks %}
+                     {% include "bookmark_list.html" %}
+                 {% endwith %}
+             {% else %}
+                 No bookmarks yet have been added yet.
+             {% endif %}
+
+        </header>
+
+    </article>
+{% endblock %}

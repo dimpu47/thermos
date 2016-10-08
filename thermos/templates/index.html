@@ -1,0 +1,185 @@
+{% extends "base.html" %} {% block title %} Thermos -- Welcome {% endblock %} {% block content %}
+<article>
+    <header>
+        <h1>Web Universe in Thermos!</h1>
+        <p>
+            <strong>Thermos</strong> is simple social bookmarking website, that stores all your favourite &amp; important links, Or a Demo Web Application written by <strong>Gaurav Choudhary</strong> as a learning exercise to explore <strong>Flask Framework</strong> for <strong>Python</strong>, following a course: <h5><a href='https://app.pluralsight.com/library/courses/flask-micro-framework-introduction/table-of-contents'>
+                        Introduction to the Flask Microframework</a> by <a href="https://www.rjekker.nl/"><strong>Riendert-Jan-Ekker</strong></a> on <a href="https://www.pluralsight.com/">pluralsight</a></h5>
+        </p>
+        <hr/>
+        <p>
+            Don't have an account? Create one by <a href="{{ url_for('auth.signup') }}">Signing Up</a>
+        </p>
+        <hr />
+    </header>
+    <section>
+        <h2>Recently Added</h2>
+        <p>
+            Stored bookmarks will appear below, <a href="{{url_for('bookmarks.add')}}">Add Bookmark</a>
+        </p>
+
+
+        {% if new_bookmarks.count() > 0 %}
+                {% with bookmarks=new_bookmarks %}
+                    {% include "bookmark_list.html" %}
+                {% endwith %}
+        {% else %}
+            No bookmarks have been added yet.
+        {% endif %}
+
+    </section>
+    <section>
+        <h2>{{ titleOne }}</h2>
+        <p>
+            This course is an <strong>intermediate level</strong> precise introduction on popular concepts of web application development with Python &amp; Flask Framework. Lectures are nicely structured exaplains all concepts clearly. Anyone with basic programming skills in python may also follow along if willing to find interesting questions &amp; hunt for subsequent solutions themselves to understand code implementation. Gaurav knows not know why the app was named <strong>Thermos</strong>. He just played around with the framework and learned new things instead. He wonders if he will ever find out.
+        </p>
+        <hr/>
+    </section>
+    <section>
+        <h2>{{ titleTwo }}</h2>
+        <p>
+            This course will teach you to use pip and virtualenv for cleaner and efficient package-management while developing web Applications with python &amp; flask framework. Concepts Like:
+            <details close>
+                <summary>MVC</summary>
+                Model-Template-View pattern in Flask, Or as it is more commonly known as the Model-View-Controller (MVC-architecture)
+                <ul contenteditable="true">
+                    <h4>Model</h4><p>Software components to:</p>
+                    <li>Hold data</li>
+                    <li>Usually represents rows in a database (routes of data in dbs)</li>
+                    <li>Flask leaves it to developers for writing these components</li>
+                    <li>sqlite3, SQLALchemy (are popular choices, but others can be used as well)</li>
+                    *SQLAlchemy was used for this project.
+
+                    <h4>Template</h4><p>Known as view in MVC terms, these software components are used to:</p>
+                    <li>Generate HTML output for our webpages.</li>
+                    <li>Flask includes Jinja2</li>
+                    *Jinja2 was used for this project.
+
+                    <h4>View</h4><p>Known as Controller in MVC terms, these software components are used to:</p>
+                    <li>Generate Responses to a specific wrb request. </li>
+                    <li>Mapped to one or more URLs</li>
+
+                </ul><hr />
+            </details>
+
+            <details close>
+                <summary>Templates &amp Views</summary>
+
+                <ul contenteditable="true">
+                    Flask comes with a Template Engine Jinja 2, That can generate any kind of text base file format, Not just HTML.
+                    But in Flask project, it's main use will be to generate HTML.
+                    <h4>Jinja 2</h4><p>HTML files &amp; Jinja2 templates to:</p>
+                    <li>Generate HTML from data that we pass from Views Functions</li>
+                    <li>Jinja2 concepts of Maintainable links, Conditional logic, looping, Macros, Super Block, Template Inheritance were used through the overall course.</li>
+
+                    <h4>Views</h4><p>Handles all aspects of :</p>
+                    <li>Routing data to specific URLs</li>
+                    <li>Passing Variables/Lists/Objects(instances of Class) to Jinja2 Template Engine</li>
+                    Little info on running app in debugging mode.
+                </ul><hr />
+            </details>
+
+            <details close>
+                <summary>Flask Forms</summary>
+
+                <ul contenteditable="true">
+                    In this module we use Flask Forms to get input from user and process those inputs.
+                    <h4>Form</h4>
+                    <li>Extension: Flask-WTF</li>
+                    <li>Form Templates</li>
+                    <li>Validating Input</li>
+                    <li>Handling Logic</li>
+
+                    <h4>Views</h4>
+                    <li>HTTP POST method</li>
+                    <li>Redirection</li>
+                    <li>Message Flashing</li>
+                    Cool things like Custom Validation. Jinja if/for &amp; Macro block implementations were shown.
+                </ul><hr />
+            </details>
+
+            <details close>
+                <summary>Persistence</summary>
+
+                <ul contenteditable="true">
+                    In this module as the name suggests, we store Bookmarks and User profile in Database
+                    <h4>Database Persistence</h4>
+                    <li>Storing &amp; Retrieving new Bookmarks</li>
+                    <li>Storing user details</li>
+
+
+                    <h4>Models</h4>
+                    Object Relational Mapper(ORM) is a tool to map Classes to Database tables.
+                    <li>ORM used: Flask SQLAlchemy</li>
+                    <li>Model classes and database tables</li>
+                    <li>Simple Relations and Queries</li>
+                    <li>Database Administration with Flask_script</li>
+                    One-To-Many Relations ans Lazy Loading Concept were discussed.
+                </ul><hr />
+            </details>
+
+            <details close>
+                <summary>Users &amp; Authentication</summary>
+
+                <ul contenteditable="true">
+                    In this module we add views, form and template for user SignIn SignUp and Authentication to the project.
+                    <h4>Users</h4>
+                    <li>Preparing User Model</li>
+                    <li>Adding Login page &amp; redirect after login </li>
+                    <li>Adding Sign-Up page for new Users </li>
+
+                    <h4>Authentication</h4>
+
+                    <li>Using Flask_Login</li>
+                    <li>using @login_required decorator</li>
+                    <li>Password Hashing</li>
+                    <li>Restricting access to page for Logged-In user only</li>
+
+                </ul><hr />
+            </details>
+
+            <details close>
+                <summary>Managing Bookmarks</summary>
+
+                <ul contenteditable="true">
+                    Now we move on to some Advanced Tecniques.
+                    <h4>Bookmarks</h4>
+                    <li>Fixing Layout of Bookmark list</li>
+                    <li>Adding Features to Edit and Delete Bookmark</li>
+                    <li>Adding Tags to Bookmark</li>
+
+                    These were roughly separated in Two Categories
+                    <h4>Templates(Jinja2)</h4>
+                    <li>Filters and Super()</li>
+                    <li>Include</li>
+                    <li>Context Processor</li>
+                    <li>Javascript Integration</li>
+
+                    <h4>Database(sqlalchemy)</h4>
+                    <li>Many-To-Many Relations</li>
+                    <li>Database Migration</li>
+                    As database model changes we can use flask extension, Flask-Migrate to do automated database migration.
+                </ul><hr />
+            </details>
+
+            <details close>
+                <summary>When Your App Grows</summary>
+
+                <ul contenteditable="true">
+                    Debugging &amp; Unit Testing for Quality Control, Splitting the Application
+                    in different modules called Blueprints and Implenting Application Factory for Dynamic Congiuration.
+                    <h4>Ninja Tricks for Allowing Application Growth</h4>
+                    <li>Implenting Flask Debug Toolbar</li>
+                    <li>Blueprints</li>
+                    <li>Flask Application Factory</li>
+                    <li>Unit Testing with nosetests</li>
+                </ul>
+            </details>
+        </p>
+        <hr/>
+    </section>
+
+</article>
+
+
+{% endblock %}
