@@ -18,7 +18,8 @@ This course entails using pip and virtualenv and demonstrates.
 - Unit Testing
 
 To run or test this demo app on you local machine:
-(assuming you would know to pip install flask packages from terminal)
+
+(assuming you would know how to pip install flask packages from terminal)
 
 - git clone https://github.com/dimpu47/thermos.git
 - cd into "thermos" directory
