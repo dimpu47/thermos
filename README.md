@@ -1,4 +1,4 @@
-Personal Learning project
+Personal Learning Project
 =========================
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Web Application Development with Python & Flask Framework. - by Gaurav Choudhary.
