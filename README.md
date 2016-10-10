@@ -25,5 +25,5 @@ To run or test this demo app on you local machine:
 - ```cd thermos```
 - run: ```python manage.py runserver```
 
-and visit localhost:5000 in your browser.
+and visit ```localhost:5000``` in your browser.
 
