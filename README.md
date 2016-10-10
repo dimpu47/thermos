@@ -25,5 +25,5 @@ To run or test this demo app on you local machine:
 - cd into "thermos" directory
 - run: python manage.py runserver
 
-and see details and credits on localhost:5000 in your browser.
+and visit localhost:5000 in your browser.
 
