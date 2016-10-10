@@ -22,8 +22,8 @@ To run or test this demo app on you local machine:
 (assuming you would know how to pip install flask packages from terminal)
 
 - ```git clone https://github.com/dimpu47/thermos.git```
-- ```cd into "thermos" directory```
-- ```run: python manage.py runserver```
+- ```cd thermos```
+- run: ```python manage.py runserver```
 
 and visit localhost:5000 in your browser.
 
