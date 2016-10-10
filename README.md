@@ -19,7 +19,7 @@ This course entails using pip and virtualenv and demonstrates.
 - Flask Application Factory
 - Unit Testing
 
-To run or test this demo app on you local machine:
+To run or test this demo app on your local machine:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (assuming you would know how to pip install flask packages from terminal)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -27,6 +27,8 @@ To run or test this demo app on you local machine:
 - ```cd thermos```
 - run: ```python manage.py runserver```
 
-and visit ```localhost:5000``` in your browser.
+and visit ```localhost:5000``` in your browser. You may find more details about topics covered in this project. 
 
 *P.S: Basic final fixes/changes were done.*
+
+Thanks.
