@@ -1,11 +1,11 @@
 Personal Learning Project
 =========================
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Web Application Development with Python & Flask Framework. - by Gaurav Choudhary.
+Web Application Development with Python & Flask Framework. - Gaurav Choudhary.
 
 Course Name: Intoduction to the Flask Microframework.
 Course Author: Reindert-Jan Ekker
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This course entails using pip and virtualenv and demonstrates.
 
 - MTV(Model-Template-View) or MVC pattern
