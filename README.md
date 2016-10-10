@@ -1,4 +1,4 @@
-This is another one of my Learning Projects while following a pluralsight training course to learn web application development in python.
+This is a Learning Project I've written while following a pluralsight training course to learn web application development in Python & Flask Framework.
 
 Course Name: Intoduction to the Flask Microframework.
 
