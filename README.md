@@ -29,4 +29,4 @@ To run or test this demo app on you local machine:
 
 and visit ```localhost:5000``` in your browser.
 
-*P.S: Basic final fixes/changes were done*
+*P.S: Basic final fixes/changes were done.*
