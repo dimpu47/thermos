@@ -1,1 +1,1 @@
-thermos/thermos/*.html linguist-language=python
+thermos/thermos/templates/*.html linguist-language=python
