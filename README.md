@@ -39,6 +39,6 @@ To run or test this demo app on your local machine:
 Visit [localhost:5000](http://localhost:5000/) in your browser.
 And find more details about topics covered in this project. 
 
-Note: This is a personal learning exercise to learn about Flasf Framework for Python.
+Note: This personal learning exercise was to learn about Web Application Development, Using Flasf Framework for Python.
 
 Thanks.
