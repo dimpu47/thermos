@@ -36,7 +36,8 @@ To run or test this demo app on your local machine:
 - cd thermos
 - python manage.py runserver
 
-and visit http://localhost:5000/ in your browser. You may find more details about topics covered in this project. 
+Visit [localhost:5000](http://localhost:5000/) in your browser.
+And find more details about topics covered in this project. 
 
 Note: This is a personal learning exercise to learn about Flasf Framework for Python.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
