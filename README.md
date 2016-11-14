@@ -41,4 +41,4 @@ and find more details about topics covered in this project.
 ~~~
 Note: This personal learning exercise was to learn about Web Application Development, Using Flasf Framework for Python.
 ~~~
-Thanks.
+Thank You.
