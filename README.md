@@ -38,6 +38,6 @@ To run or test this demo app on your local machine:
 
 and visit ```localhost:5000``` in your browser. You may find more details about topics covered in this project. 
 
-*P.S: This is a personal learning exercise to learn about Flasf Framework for Python.*
+- *P.S: This is a personal learning exercise to learn about Flasf Framework for Python.*
 
 Thanks.
