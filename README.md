@@ -5,6 +5,15 @@ Web Application Development with Python & Flask Framework. - Gaurav Choudhary.
 
 Course Name: Intoduction to the Flask Microframework.
 Course Author: Reindert-Jan Ekker
+
+Features:
+
+Users can Login/Logout, SignUp for an account.
+Once Logged in, Users can save their favourite HTML-Links/Urls as Bookmarks and 
+make collection of favourite places to visit on the Internet.
+Users can add Tags to their bookmark entries.
+User can view recent bookmark entries or all selectively by tags/username.
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This course entails using pip and virtualenv and demonstrates.
 
