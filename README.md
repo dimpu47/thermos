@@ -27,18 +27,18 @@ This course entails using pip and virtualenv and demonstrates.
 - Blueprints
 - Flask Application Factory
 - Unit Testing
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 To run or test this demo app on your local machine:
 
 (assuming you would know how to pip install flask packages from terminal)
 
-- git clone https://github.com/dimpu47/thermos.git
-- cd thermos
-- python manage.py runserver
+- `git clone https://github.com/dimpu47/thermos.git`
+- `cd thermos`
+- `python manage.py runserver`
 
 Visit [localhost:5000](http://localhost:5000/) in your browser.
 And find more details about topics covered in this project. 
 
 Note: This is a personal learning exercise to learn about Flasf Framework for Python.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Thanks.
