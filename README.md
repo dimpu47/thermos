@@ -34,7 +34,7 @@ To run or test this demo app on your local machine:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - ```git clone https://github.com/dimpu47/thermos.git```
 - ```cd thermos```
-- run: ```python manage.py runserver```
+- ```python manage.py runserver```
 
 and visit ```localhost:5000``` in your browser. You may find more details about topics covered in this project. 
 
