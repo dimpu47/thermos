@@ -32,11 +32,11 @@ To run or test this demo app on your local machine:
 
 (assuming you would know how to pip install flask packages from terminal)
 
-- ```git clone https://github.com/dimpu47/thermos.git```
-- ```cd thermos```
-- ```python manage.py runserver```
+- git clone https://github.com/dimpu47/thermos.git
+- cd thermos
+- python manage.py runserver
 
-and visit ```localhost:5000``` in your browser. You may find more details about topics covered in this project. 
+and visit http://localhost:5000/ in your browser. You may find more details about topics covered in this project. 
 
 Note: This is a personal learning exercise to learn about Flasf Framework for Python.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
