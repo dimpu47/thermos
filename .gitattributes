@@ -1,2 +1,2 @@
 thermos/templates/*.html linguist-language=python
-thermos/*/**/.css linguist-language=python
+thermos/*/**/*.css linguist-language=python
