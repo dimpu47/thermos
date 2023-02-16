@@ -28,5 +28,5 @@ rply==0.7.4
 six==1.10.0
 SQLAlchemy==1.1.0
 times==0.7
-Werkzeug==0.11.11
+Werkzeug==2.2.3
 WTForms==2.1
