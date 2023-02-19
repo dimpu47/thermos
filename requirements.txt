@@ -29,4 +29,4 @@ six==1.10.0
 SQLAlchemy==1.1.0
 times==0.7
 Werkzeug==0.11.11
-WTForms==2.1
+WTForms==2.3.0
